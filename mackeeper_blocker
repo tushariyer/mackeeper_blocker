@@ -1,8 +1,5 @@
 #!/usr/bin/ruby
 
-#Author: Vatsaev Aslan (@avatsaev)
-#Repository: https://github.com/avatsaev/mackeeper_blocker
-
 #request root previleges in order to modify hosts file
 if ENV["USER"] != "root"
   exec("sudo #{ENV['_']} #{ARGV.join(' ')}")
@@ -14,6 +11,7 @@ mk_address_list = [
   "mackeeperapp2.mackeeper.com",
   "mackeeperapp3.mackeeper.com",
   "mackeeper.com"
+  "advancedmaccleaner.com"
 ]
 
 
