@@ -10,7 +10,7 @@ mk_address_list = [
   "mackeeperapp.mackeeper.com",
   "mackeeperapp2.mackeeper.com",
   "mackeeperapp3.mackeeper.com",
-  "mackeeper.com"
+  "mackeeper.com",
   "advancedmaccleaner.com"
 ]
 
